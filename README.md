@@ -8,7 +8,7 @@ We ask you to complete the Basic Goals below and deliver the outputs requested.
 
 Additional Challenges are suggested if you have time and want to show us what you can do.
 
-Completing the basic goal in a working, reliable, reproducible way is preferable to completing any of the additional challenges.  Be sure to give thought in explaining what further improvements you would make given more time.
+Completing the basic goal in an automated, working, reliable, reproducible way is preferable to completing any of the additional challenges.  Be sure to give thought in explaining what further improvements you would make given more time.
 
 
 # Basic Goals
@@ -27,12 +27,12 @@ Please provide us with:
 2. a set of read-only AWS access credentials allowing us to see the AWS resources used in the deployment.
 3. SSH key pairs for logging onto the web instances used in the deployment.
 4. any scripts, config files, manifests, recipes, or source code you used to achieve the goal above.
-5. any detailed notes, written explanations, diagrams, screen casts to help demonstrate your work.
+5. any detailed notes, written explanations, diagrams, screen shots to help demonstrate your work.
 6. written answers to the question: "How would you further automate the management of the infrastructure?"
 
 You can send these as:
 
-* *a GitHub pull request on the [StreamCo/devops-lab](https://github.com/StreamCo/devops-lab) GitHub repo.*
+* *a public GitHub repo URL.*
 * *a zipped file via email.*
 * *a zipped file via URL download link.*
 
@@ -57,7 +57,7 @@ You can send these as:
 # Notes:
 ==============================
 
-* Again, completing the basic goal in a working, reliable, reproducible way is preferable to completing any of the additional challenges.
+* Again, completing the basic goal in an automated, working, reliable, reproducible way is preferable to completing any of the additional challenges.
 * Note that the hello_app Node.js code in this repo is intentionally broken and needs to be fixed before using.
 * Self signed SSL certificates are OK.
 
