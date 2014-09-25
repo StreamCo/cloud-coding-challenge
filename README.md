@@ -53,7 +53,6 @@ Additional Challenges:
 * Redirect any 404 errors to a custom static page.
 * Redirect any HTTP requests to HTTPS.
 * Send a notification to an SNS topic for each 404 error. Notification message should include: `<Time of 404>, <URL Attempt>, <IP Address of request>`
-* Redirect all http requests to https and enable SSL on the web server (use a self signed certificate)
 * Generate the "Hello World" page with a simple web app, fronted by a web server.
     * You may use the hello_app Node.js code in the [StreamCo/devops-lab](https://github.com/StreamCo/devops-lab) GitHub repo or write your own app in any language.
     * (*Note that the Node.js code in this repo is intentionally broken and needs to be fixed before using.*)
