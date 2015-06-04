@@ -29,7 +29,7 @@ Output
 Please provide us with:
 
 1. a public URL for hitting the web server deployment.
-2. a set of read-only AWS access credentials allowing us to see the AWS resources used in the deployment.
+2. a set of read-only AWS access credentials (Access Key and Secret Key) allowing us to see the AWS resources used in the deployment.
 3. SSH key pairs for logging onto the web instances used in the deployment.
 4. any scripts, config files, manifests, recipes, or source code you used to achieve the goal above.
 5. any detailed notes, written explanations, diagrams, screen shots to help demonstrate your work.
@@ -37,8 +37,8 @@ Please provide us with:
 
 You can send these as:
 
-* *a public GitHub repo URL.*
-* *a zipped file via email.*
+* *a public GitHub/Bitbucket repository URL.*
+* *a zipped file via e-mail.*
 * *a zipped file via URL download link.*
 
 *You may tear down the environment once we have confirmed the completion of our review.*
