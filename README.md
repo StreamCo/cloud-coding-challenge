@@ -19,7 +19,7 @@ Completing the basic goal in an automated, working, reliable, reproducible way i
 Basic Goals
 ==========
 
-* Using AWS, automate the deployment of secure, publicly available HA Load-Balanced Web Servers that return a ‘Hello World’ page.
+* Using AWS (EC2), automate the deployment of secure, publicly available HA Load-Balanced Web Servers that return a ‘Hello World’ page. Please refrain from using Elastic Beanstalk or OpsWorks.
 * Answer the question: "How would you further automate the management of the infrastructure?"
 
 
