@@ -19,7 +19,7 @@ Completing the basic goal in an automated, working, reliable, reproducible way i
 Basic Goals
 ==========
 
-* Using AWS (EC2), automate the deployment of secure, publicly available HA Load-Balanced Web Servers that return a ‘Hello World’ page. Please refrain from using Elastic Beanstalk or OpsWorks.
+* Using AWS (EC2 and Cloudformation), automate the deployment of secure, publicly available HA Load-Balanced Web Servers that return a ‘Hello World’ page. 
 * Answer the question: "How would you further automate the management of the infrastructure?"
 
 
@@ -48,20 +48,17 @@ Additional Challenges:
 ==========
 
 * Ensure that the web servers are available in two AWS availability zones and will automatically rebalance themselves if there is no healthy web server instance in either availability zone.
-* Drive the deployment with a continuous integration tool.
+* Drive the deployment with cfn-init and/or Puppet. 
 * Provide basic automated tests to cover included scripts, templates, manifests, recipes, code etc.
 * Redirect any 404 errors to a custom static page.
 * Redirect any HTTP requests to HTTPS.
 * Send a notification to an SNS topic for each 404 error. Notification message should include: `<Time of 404>, <URL Attempt>, <IP Address of request>`
 * Generate the "Hello World" page with a simple web app, fronted by a web server.
-    * You may use the hello_app Node.js code in the [StreamCo/devops-lab](https://github.com/StreamCo/devops-lab) GitHub repo or write your own app in any language.
-    * (*Note that the Node.js code in this repo is intentionally broken and needs to be fixed before using.*)
 
 
 Notes:
 ==========
 
 * Again, completing the basic goal in an automated, working, reliable, reproducible way is preferable to completing any of the additional challenges.
-* Note that the hello_app Node.js code in this repo is intentionally broken and needs to be fixed before using.
 * Self signed SSL certificates are OK.
 
