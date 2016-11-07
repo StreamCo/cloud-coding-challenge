@@ -11,17 +11,26 @@ The purpose of this lab is to assess your skills and approach to automated provi
 
 We ask you to complete the Basic Goals below and deliver the outputs requested.
 
-Additional Challenges are suggested if you have time and want to show us what you can do.
+Additional Challenges are highly recommended if you have time and want to show us what you can do.
 
-Completing the basic goal in an automated, working, reliable, reproducible way is preferable to completing any of the additional challenges.  Be sure to give thought in explaining what further improvements you would make given more time.
+Completing the basic goals in an automated, working, reliable, reproducible way is preferable to completing any of the additional challenges.  Be sure to give thought in explaining what further improvements you would make given more time.
 
 
 Basic Goals
 ==========
 
-* Using AWS (EC2 and Cloudformation), automate the deployment of secure, publicly available HA Load-Balanced Web Servers that return a ‘Hello World’ page. 
-* Answer the question: "How would you further automate the management of the infrastructure?"
+* Using AWS Cloudformation, automate the deployment of secure, publicly available HA Load-Balanced Web Servers that return the instance id of the host that served the request.
+* Ensure that the web servers are available in two AWS availability zones and will automatically rebalance themselves if there is no healthy web server instance in either availability zone.
+* Redirect any HTTP requests to HTTPS. Self-signed certificates are acceptable.
+* Answer the question: "How would you further automate the management of the infrastructure if given unlimited time and resource?"
 
+Additional Challenges:
+==========
+
+* Drive the deployment with Puppet.
+* Provide basic automated tests to cover included scripts, templates, manifests, recipes, code etc.
+* Redirect any 404 errors to a custom static page.
+* Add a Database to your automation and have your application serve the data stored in addition to the instance ID.
 
 Output
 ==========
@@ -37,28 +46,13 @@ Please provide us with:
 
 You can send these as:
 
-* *a public GitHub/Bitbucket repository URL.*
-* *a zipped file via e-mail.*
-* *a zipped file via URL download link.*
+* A public GitHub/Bitbucket repository URL.
+* A zipped file via e-mail.
+* A zipped file via URL download link.
 
-*You may tear down the environment once we have confirmed the completion of our review.*
-
-
-Additional Challenges:
-==========
-
-* Ensure that the web servers are available in two AWS availability zones and will automatically rebalance themselves if there is no healthy web server instance in either availability zone.
-* Drive the deployment with cfn-init and/or Puppet. 
-* Provide basic automated tests to cover included scripts, templates, manifests, recipes, code etc.
-* Redirect any 404 errors to a custom static page.
-* Redirect any HTTP requests to HTTPS.
-* Send a notification to an SNS topic for each 404 error. Notification message should include: `<Time of 404>, <URL Attempt>, <IP Address of request>`
-* Generate the "Hello World" page with a simple web app, fronted by a web server.
-
+You may tear down the environment once we have confirmed the completion of our review.
 
 Notes:
 ==========
 
-* Again, completing the basic goal in an automated, working, reliable, reproducible way is preferable to completing any of the additional challenges.
-* Self signed SSL certificates are OK.
-
+* AWS services are eligible for the free tier: https://aws.amazon.com/free/
