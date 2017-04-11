@@ -11,7 +11,7 @@ The purpose of this lab is to assess your skills and approach to automated provi
 
 We ask you to complete the Basic Goals below and deliver the outputs requested.
 
-Additional Challenges are highly recommended if you have time and want to show us what you can do.
+Additional Challenges are available if you have time and want to show us what you can do.
 
 Completing the basic goals in an automated, working, reliable, reproducible way is preferable to completing any of the additional challenges.  Be sure to give thought in explaining what further improvements you would make given more time.
 
