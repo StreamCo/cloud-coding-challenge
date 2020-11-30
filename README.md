@@ -4,7 +4,7 @@
 
 The purpose of this challenge is to assess your skills and approach to automated provisioning, deployment and configuration management.
 
-We ask you to complete the Basic Goals below and deliver the outputs requested.
+Please complete the basic goals below and deliver the outputs as requested. You don't need to spend more than a couple of hours on the challenge.
 
 Additional challenges are available if you have time and want to show us what you can do.
 
@@ -37,4 +37,4 @@ Please include in your e-mail:
     * a zipped file,
     * or a zipped file via download link
 
-We'll let you know when we've completed our review so that you can tear down the environment.
+We'll complete our review of the live environment within 2 business days so that you can tear it down promptly.
