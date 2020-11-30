@@ -1,58 +1,40 @@
-StreamCo DevOps Lab
-==========
+# Stan Cloud Engineering Challenge
 
-Technical assessment for DevOps candidates.
+## Overview
 
-
-Overview
-==========
-
-The purpose of this lab is to assess your skills and approach to automated provisioning, deployment and configuration management.
+The purpose of this challenge is to assess your skills and approach to automated provisioning, deployment and configuration management.
 
 We ask you to complete the Basic Goals below and deliver the outputs requested.
 
-Additional Challenges are available if you have time and want to show us what you can do.
+Additional challenges are available if you have time and want to show us what you can do.
 
-Completing the basic goals in an automated, working, reliable, reproducible way is preferable to completing any of the additional challenges.  Be sure to give thought in explaining what further improvements you would make given more time.
+Completing the basic goals in an automated, reliable, reproducible way is preferable to completing any of the additional challenges.
 
+## Basic Goals
 
-Basic Goals
-==========
-
-* Using AWS Cloudformation, automate the deployment of secure, publicly available HA Load-Balanced Web Servers that return the instance id of the host that served the request.
+* Automate the deployment of secure, publicly available, load-balanced web servers that return the instance ID of the host that served the request.
 * Ensure that the web servers are available in two AWS availability zones and will automatically rebalance themselves if there is no healthy web server instance in either availability zone.
 * Redirect any HTTP requests to HTTPS. Self-signed certificates are acceptable.
-* Answer the question: "How would you further automate the management of the infrastructure if given unlimited time and resource?"
+* Write one or two paragraphs about how you might further improve the automation and management of the infrastructure if you were to take it into production.
 
-Additional Challenges:
-==========
+*Note:* All of the services required are eligible for the [AWS Free Tier](https://aws.amazon.com/free/).
 
-* Drive the deployment with Puppet.
-* Provide basic automated tests to cover included scripts, templates, manifests, recipes, code etc.
-* Redirect any 404 errors to a custom static page.
-* Add a Database to your automation and have your application serve the data stored in addition to the instance ID.
+## Additional Challenges
 
-Output
-==========
+* Provide basic automated tests to cover included scripts, templates, manifests, recipes, code, etc.
+* Return a custom static page for 4XX/5XX errors.
+* Add a database to the infrastructure and have your application serve something from the database in addition to the instance ID.
+* Write one or two paragraphs about why you solved the basic goals and additional challenges the way you did.
 
-Please provide us with:
+## Output
 
-1. a public URL for hitting the web server deployment.
-2. a set of read-only AWS access credentials (Access Key and Secret Key) allowing us to see the AWS resources used in the deployment.
-3. SSH key pairs for logging onto the web instances used in the deployment.
-4. any scripts, config files, manifests, recipes, or source code you used to achieve the goal above.
-5. any detailed notes, written explanations, diagrams, screen shots to help demonstrate your work.
-6. written answers to the question: "How would you further automate the management of the infrastructure?"
+Please include in your e-mail:
 
-You can send these as:
+1. a public URL to access your deployment
+1. your written answers
+1. any scripts, config files, manifests, recipes, or source code you used to achieve the goals, in the form of
+    * a public source repository URL,
+    * a zipped file,
+    * or a zipped file via download link
 
-* A public GitHub/Bitbucket repository URL.
-* A zipped file via e-mail.
-* A zipped file via URL download link.
-
-You may tear down the environment once we have confirmed the completion of our review.
-
-Notes:
-==========
-
-* AWS services are eligible for the free tier: https://aws.amazon.com/free/
+We'll let you know when we've completed our review so that you can tear down the environment.
